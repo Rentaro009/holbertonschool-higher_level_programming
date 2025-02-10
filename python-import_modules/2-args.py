@@ -10,7 +10,7 @@ if __name__ == "__main__":
     elif argc == 1:
         print("1 arguments:")
     else:
-        print("{} arguments:" .format(argc))
+        print("{} arguments:".format(argc))
 
     for i, arg in enumerate(argv, start=1):
         print("{}: {}".format(i, arg))
